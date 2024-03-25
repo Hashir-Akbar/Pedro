@@ -5,10 +5,11 @@ export default {
     extend: {
       maxWidth: {
         'navContainer': '1360px',
-        "mainContainer": "1200px",
+        "mainContainer": "1290px",
       },
       colors: {
-         "theme-pink" : '#C6457D'
+         "theme-pink" : '#C6457D',
+         "theme-lightGray" : 'rgba(43, 47, 75, 0.25)'
 
 
       },
