@@ -168,5 +168,6 @@
 .hero-card-02,
 .hero-card-01,
 .hero-card-03 {
-  width: 33%;
+  max-width: 400px;
+  width: 100%;
 }
