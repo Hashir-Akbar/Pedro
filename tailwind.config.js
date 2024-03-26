@@ -9,7 +9,8 @@ export default {
       },
       colors: {
          "theme-pink" : '#C6457D',
-         "theme-lightGray" : 'rgba(43, 47, 75, 0.25)'
+         "theme-lightGray" : 'rgba(43, 47, 75, 0.25)',
+         "theme-bg" : 'F7F6FB'
 
 
       },
