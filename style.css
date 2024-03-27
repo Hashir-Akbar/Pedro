@@ -100,7 +100,7 @@
 .hero-card-01::before {
   content: "";
   position: absolute;
-  width: 526px;
+  width: 215px;
   height: 607px;
   background: url("/public/hero/Ellipse-992.png");
   background-repeat: repeat;
@@ -117,7 +117,7 @@
 .hero-card-02::before {
   content: "";
   position: absolute;
-  width: 526px;
+  width: 215px;
   height: 607px;
   background: url("/public/hero/Ellipse-993.png");
   background-repeat: repeat;
@@ -134,7 +134,7 @@
 .hero-card-03::before {
   content: "";
   position: absolute;
-  width: 526px;
+  width: 215px;
   height: 607px;
   background: url("/public/hero/Ellipse-994.png");
   background-repeat: repeat;
@@ -170,4 +170,98 @@
 .hero-card-03 {
   max-width: 400px;
   width: 100%;
+}
+@media (max-width: 1148px) {
+  .hero > div:first-child {
+    flex-wrap: wrap;
+  }
+  .hero > div:first-child .hero-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: -192px;
+  }
+  .hero-bg {
+    top: 411px;
+    left: 91px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+  .hero > div:first-child > div:first-child button {
+    /* margin-inline: auto; */
+    width: 100%;
+  }
+  .hero > div:first-child > div:first-child h1,
+  .hero > div:first-child > div:first-child h1 .text-bg {
+    font-size: 42px;
+  }
+  .hero > div:first-child .hero-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 0px;
+  }
+  .hero > div:first-child .hero-img-container {
+    width: 48%;
+    margin-left: auto;
+  }
+  .hero-bg {
+    max-width: 250px;
+    left: 0;
+  }
+  .hero-bg::before {
+    content: "";
+    position: absolute;
+    background-image: url("/public/hero/Polygon02.png");
+    width: 145px;
+    height: 169px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: contain;
+    bottom: -2px;
+    left: 0px;
+    rotate: -14deg;
+  }
+  .hero-img::after {
+    content: "";
+    position: absolute;
+    background-image: url("/public/hero/Group-985503.png");
+    width: 428px;
+    height: 385px;
+    background-repeat: no-repeat;
+    top: 49px;
+    left: -226px;
+    z-index: -1;
+    rotate: 242deg;
+    background-size: cover;
+  }
+  .hero-img::before {
+    content: "";
+
+    position: absolute;
+
+    background-image: url("/public/hero/CloseUp.png");
+
+    width: 131px;
+
+    height: 76px;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    left: 109px;
+
+    top: -2px;
+  }
+}
+@media (max-width: 1393px) {
+  .hero-card .cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
 }

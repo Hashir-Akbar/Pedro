@@ -15,7 +15,8 @@ export default {
 
       },
       screens: {
-        "tablet" : "986px"
+        "tablet" : "986px",
+        'dek' :"1148px"
       }
     },
   },
