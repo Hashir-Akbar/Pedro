@@ -10,7 +10,16 @@ export default {
       colors: {
          "theme-pink" : '#C6457D',
          "theme-lightGray" : 'rgba(43, 47, 75, 0.25)',
-         "theme-bg" : 'F7F6FB'
+         "theme-black" : '#1A1A1A',
+         "theme-bg" : '#F7F6FB',
+         "theme-1" : '#7AB7C2',
+         "theme-2" : '#8B76B5',
+          "theme-3" : '#E1517F',
+          "theme-4" : '#A4A4A5',
+          "theme-5" : '#BF4E55',
+          "theme-6" : '#97BB68',
+          'theme-7' : "#2B2F4B",
+         
 
 
       },
