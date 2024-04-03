@@ -20,7 +20,8 @@ export default {
           "theme-5" : '#BF4E55',
           "theme-6" : '#97BB68',
           'theme-7' : "#2B2F4B",
-         
+          "theme-8" : "#8A76B6",
+         'theme-9' : "#932B8F"
 
 
       },
